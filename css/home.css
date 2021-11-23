@@ -370,7 +370,7 @@ footer .copyright .pro-links i:hover {
         margin-top: 20px;
     }
  }
- @media (max-width: 375px) {
+ @media (max-width: 376px) {
     #registration {
         display: flex;
         flex-direction: column;
@@ -409,6 +409,63 @@ footer .copyright .pro-links i:hover {
     footer .copyright .pro-links i {
         border-radius: 50%;
         padding: 15px;
+        margin: 0 10px;
+    }
+ }
+ @media (max-width: 769px) {
+    #registration {
+        padding: 6vw 3vw 6vw 3vw;
+    }
+    #registration .reminder .time {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    #partners {
+        padding: 8vw 8vw 4vw 8vw;
+        text-align: center;
+        margin-top: 20px;
+    }
+ }
+ @media (max-width: 412px) {
+    #registration {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #registration .reminder .time {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    footer .subscribe{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    footer .subscribe a {
+        margin-top: 5px;
+    }
+    footer .copyright {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    footer .copyright .pro-links {
+        margin: 30px 0 20px 0;
+    }
+    footer .copyright .pro-links i {
+        border-radius: 50%;
+        padding: 10px;
         margin: 0 10px;
     }
  }
